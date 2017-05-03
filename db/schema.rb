@@ -18,8 +18,11 @@ ActiveRecord::Schema.define(version: 20170503143836) do
   create_table "crashes", force: :cascade do |t|
     t.string   "location_address"
     t.date     "date_time"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
+    t.string   "day_of_week"
+    t.string   "p1_sex"
+    t.string   "v1_driver_contribution"
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
   create_table "users", force: :cascade do |t|
