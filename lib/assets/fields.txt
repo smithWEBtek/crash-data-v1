@@ -1,0 +1,234 @@
+ambient_light
+:
+"DAYLIGHT"
+cross_street
+:
+"WENDELL ST"
+date_time
+:
+"2016-03-24T10:13:00.000"
+day_of_week
+:
+"Thursday"
+first_harmful_event
+:
+"COLLISION WITH PARKED MOTOR VEHICLE"
+first_harmful_event_location
+:
+"ROADWAY"
+intersection_name_1
+:
+"OXFORD ST"
+intersection_name_2
+:
+"WENDELL ST"
+location_address
+:
+"OXFORD ST & WENDELL ST, Cambridge, MA"
+manner_of_collision
+:
+"SIDESWIPE, SAME DIRECTION"
+object_1
+:
+"PASSENGER CAR"
+object_2
+:
+"UNKNOWN HEAVY TRUCK"
+p1_age
+:
+"NA"
+p1_drivers_lic_class_1
+:
+"D, CLASS D VEHICLES"
+p1_drivers_lic_state
+:
+"MASSACHUSETTS"
+p1_injury
+:
+"NO INJURY"
+p1_role
+:
+"OPERATOR/DRIVER"
+p1_safety_system
+:
+"UNKNOWN"
+p1_seat_position
+:
+"FRONT SEAT - LEFT SIDE, OR MOTORCYLE DRIVER"
+p1_sex
+:
+"FEMALE"
+p1_trapped
+:
+"NOT TRAPPED"
+p1_veh_owner
+:
+"Y"
+p2_age
+:
+"NA"
+p2_drivers_lic_class_1
+:
+"UNKNOWN"
+p2_drivers_lic_state
+:
+"MASSACHUSETTS"
+p2_injury
+:
+"NO INJURY"
+p2_role
+:
+"OPERATOR/DRIVER"
+p2_safety_system
+:
+"UNKNOWN"
+p2_seat_position
+:
+"FRONT SEAT - LEFT SIDE, OR MOTORCYLE DRIVER"
+p2_sex
+:
+"MALE"
+p2_trapped
+:
+"NOT TRAPPED"
+road_contributing
+:
+"NONE"
+road_surface_condition
+:
+"DRY"
+roadway_junction_type
+:
+"FOUR WAY INTERSECTION"
+school_bus_related
+:
+"NO"
+speed_limit
+:
+"25"
+street_name
+:
+"OXFORD ST"
+street_or_intersection
+:
+"INTERSECTION"
+traffic_control_device_type
+:
+"NO CONTROLS"
+trafficway_description
+:
+"TWO-WAY, NOT DIVIDED"
+v1_action_prior_to_crash
+:
+"PARKED"
+v1_configuration
+:
+"PASSENGER CAR"
+v1_driver_contribution
+:
+"NO IMPROPER DRIVING"
+v1_driver_distracted
+:
+"NOT DISTRACTED"
+v1_first_event
+:
+"COLLISION WITH MOTOR VEHICLE IN TRAFFIC"
+v1_haz_release
+:
+"NA"
+v1_is_hazmat
+:
+"NA"
+v1_make
+:
+"VOLVO"
+v1_model
+:
+"V70"
+v1_model_year
+:
+"2002"
+v1_most_damaged_area
+:
+"LEFT SIDE"
+v1_most_harmful_event
+:
+"COLLISION WITH MOTOR VEHICLE IN TRAFFIC"
+v1_occupant_count
+:
+"1"
+v1_reg_year
+:
+"NA"
+v1_registration_type
+:
+"PAN"
+v1_state_code
+:
+"MA"
+v1_trailer_reg_year
+:
+"NA"
+v1_underride_override
+:
+"NA"
+v2_action_prior_to_crash
+:
+"TURNING LEFT"
+v2_configuration
+:
+"UNKNOWN HEAVY TRUCK"
+v2_driver_contribution
+:
+"UNKNOWN"
+v2_driver_distracted
+:
+"NOT DISTRACTED"
+v2_emergency_response
+:
+"Y"
+v2_first_event
+:
+"COLLISION WITH PARKED MOTOR VEHICLE"
+v2_haz_placard
+:
+"NA"
+v2_haz_release
+:
+"NA"
+v2_is_hazmat
+:
+"NA"
+v2_make
+:
+"PIERCE"
+v2_model
+:
+"ARROW"
+v2_model_year
+:
+"2009"
+v2_most_harmful_event
+:
+"COLLISION WITH PARKED MOTOR VEHICLE"
+v2_occupant_count
+:
+"1"
+v2_reg_year
+:
+"NA"
+v2_registration_type
+:
+"PAR"
+v2_state_code
+:
+"MA"
+v2_underride_override
+:
+"NA"
+weather_condition_1
+:
+"CLOUDY"
+work_zone
+:
+"NO"

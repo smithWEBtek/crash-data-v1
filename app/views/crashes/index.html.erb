@@ -1,0 +1,11 @@
+<h3>Crashes Index</h3>
+
+<% @crashes.each do |crash| %>
+	<p>
+		<%= crash.date_time %>
+		<%= link_to crash.location_address, crash_path(crash) %>
+	</p>
+<% end %>
+
+<button id="button_index">Get All Crashes</button>
+<div id="data_index"></div>
