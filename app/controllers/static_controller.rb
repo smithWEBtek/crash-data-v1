@@ -1,6 +1,7 @@
 class StaticController < ApplicationController
-  def home
-  	render :home
+
+  def about
+  	render :about
   end
 
   def users
@@ -8,10 +9,6 @@ class StaticController < ApplicationController
   end
 
   def crashes
-  	redirect_to_to crashes_path
-  end
-
-  def about
-  	render :about
+  	redirect_to crashes_path
   end
 end
