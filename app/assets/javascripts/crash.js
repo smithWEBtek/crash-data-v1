@@ -1,12 +1,14 @@
+
+$(function(){
+console.log("you hit the document ready function!")
+
 var crashes = [];
 var crash = {};
 var day_of_week = "";
 
-$(function(){
-	load_index();
-	load_day_counts();
-	load_gender_counts();
-})
+	// load_index();
+	// load_day_counts();
+	// load_gender_counts();
 
 function load_index(){
 	$("#button_index").on("click", function(e){
@@ -159,3 +161,4 @@ function load_gender_counts(){
 	  });
 	});
 }
+})
