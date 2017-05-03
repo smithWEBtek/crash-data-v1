@@ -9,6 +9,11 @@
   </head>
 
   <body>
-    <%= yield %>
+	<div class="container">
+		<div class="row">
+    	<%= render partial: 'layouts/navbar', locals: { crashes: @crashes } %>
+    	<%= yield %>	
+			</div>
+		</div>
   </body>
 </html>
