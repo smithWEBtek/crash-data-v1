@@ -1,2 +1,3 @@
 class Crash < ApplicationRecord
+
 end
