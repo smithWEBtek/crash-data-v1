@@ -25,22 +25,22 @@ function downloadCsvOfColumnNames(){
 	});
 };
 
-function importCrashes(){
-	$("#import_crashes").on("click", function(e){
-		$.ajax({
-			type: 'get',
-			url: 'https://data.cambridgema.gov/resource/nqki-ytz6.json'
-		}).success(function(response){
-			for (var i = response.length - 1; i >= 0; i--) {
-			var data = {crash: response[i]};
-			$.ajax({
-				type: 'post',
-				url: '/crashes',
-				data: data
-				});
-			};
-		});	
-	})
-}
+// function importCrashes(){
+// 	$("#import_crashes").on("click", function(e){
+// 		$.ajax({
+// 			type: 'get',
+// 			url: 'https://data.cambridgema.gov/resource/nqki-ytz6.json'
+// 		}).success(function(response){
+// 			for (var i = response.length - 1; i >= 0; i--) {
+// 			var data = {crash: response[i]};
+// 			$.ajax({
+// 				type: 'post',
+// 				url: '/crashes',
+// 				data: data
+// 				});
+// 			};
+// 		});	
+// 	})
+// }
  
 
