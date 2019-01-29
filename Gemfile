@@ -12,6 +12,7 @@ gem 'cloudinary'
 gem 'pdf-reader'
 gem 'rails-erd'
  
+
 #scraping
 gem 'watir'
 gem 'nokogiri', '>=1.5.9'
